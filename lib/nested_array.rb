@@ -54,8 +54,9 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
-  matrix_update=assembled_matrix
   
+  matrix_update=assembled_matrix
+  matrix_update[row]column]="Lemons"
 end
 
 describe 'When a learning to update cells in nested arrays,' do
